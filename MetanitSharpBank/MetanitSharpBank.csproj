@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MetanitSharpBankLib\MetanitSharpBankLib.csproj">
+      <Project>{e6265238-501b-4c04-a87d-c479532fc208}</Project>
+      <Name>MetanitSharpBankLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
